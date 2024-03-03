@@ -1,1 +1,16 @@
-/* Write your CSS here! */
+body {
+  margin: 8px;
+  display: block;
+}
+
+#mainHeading {
+  color: red;
+}
+
+.testP {
+  letter-spacing: 3px;
+}
+
+.funParagraph {
+  color: green;
+}
