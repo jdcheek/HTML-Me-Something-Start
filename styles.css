@@ -1,16 +1,41 @@
 body {
   margin: 8px;
   display: block;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  width: 60%;
+}
+
+h1 {
+  font-size: 69px;
+}
+
+p {
+  text-align: justify;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #mainHeading {
   color: red;
+  color: green !important;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.testP {
-  letter-spacing: 3px;
+#title-img {
+  width: 150px;
+  height: 150px;
 }
 
 .funParagraph {
   color: green;
+  color: black !important;
 }

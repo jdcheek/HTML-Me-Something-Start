@@ -11,78 +11,90 @@
 <body>
   <header id="mainHeading">
     <h1>All About Vim</h1>
-    <img src="./public/vim-logo-medium.png" alt="vim logo">
+    <img src="./public/vim-logo-medium.png" alt="vim logo" id="title-img">
   </header>
 
-  <main>
-    <article>
-      <header>
-        <h2>What is Vim?</h2>
-      </header>
-      <p id="testP" class="funParagraph"> Vim, short for "Vi IMproved," stands as a testament to the enduring legacy of
-        the Vi text editor,
-        which
-        originated in the early days of Unix computing. Vim, developed by Bram Moolenaar in the early 1990s, emerged as
-        a robust and highly customizable text editor renowned for its efficiency and versatility. Rooted in the modal
-        editing concept pioneered by Vi, Vim offers a distinctive mode-based interface, empowering users with a plethora
-        of commands and features for text manipulation, code editing, and more. From its humble beginnings as an
-        enhancement to the Vi editor, Vim has evolved into a cornerstone tool for developers, sysadmins, and enthusiasts
-        alike, shaping the landscape of text editing with its powerful capabilities and enduring appeal.</p>
-    </article>
-    <article>
-      <header>
-        <h2>Vim Features</h2>
-      </header>
-      <p>Revered for its efficiency and flexibility, Vim boasts a myriad of features that cater to the needs of both
-        novice users and seasoned professionals. At the core of its functionality lies an innovative motion system,
-        revolutionizing text navigation and manipulation. These motions empower users to traverse through documents with
-        remarkable fluidity: effortlessly jumping between lines, swiftly navigating words, or executing complex text
-        operations with precision. Beyond unparalleled motion capabilities, Vim offers a wealth of features designed to
-        enhance productivity and streamline workflows. Its robust search and replace functionality, seamless integration
-        with external tools and version control systems, and comprehensive suite of tools for code editing, writing, and
-        system administration tasks set it apart. Additionally, Vim's extensible architecture allows users to customize
-        and augment its functionality through plugins and scripting, ensuring adaptability to diverse use cases and
-        evolving user preferences. In essence, Vim stands as the ultimate choice for those who demand speed, efficiency,
-        and unparalleled control over their text editing experience.</p>
-    </article>
-    <article>
-      <header>
-        <h2>Vim Ecosystem</h2>
-      </header>
-      <p>Within the Vim ecosystem, Neovim emerges as a significant evolution, reshaping the landscape of modern text
-        editing. While both Vim and Neovim share a common heritage, Neovim introduces several innovations and
-        improvements that distinguish it from its predecessor. One notable aspect is Neovim's emphasis on extensibility
-        and modernization. With a focus on a clean, well-documented API, Neovim facilitates easier plugin development
-        and integration with external tools, fostering a vibrant ecosystem of community-driven enhancements. Moreover,
-        Neovim addresses longstanding issues present in Vim, such as its limited terminal integration and asynchronous
-        execution, by offering native support for these features. This enhanced functionality not only improves the
-        overall user experience but also opens up new possibilities for advanced workflows and integrations.
-        Additionally, Neovim's commitment to community collaboration and transparent development processes fosters a
-        culture of innovation and inclusivity, attracting developers and users alike to contribute to its ongoing
-        improvement. In comparison to Vim, Neovim's modern approach and forward-thinking design make it a compelling
-        choice for those seeking a more flexible, customizable, and future-proof text editing solution within the Vim
-        ecosystem.</p>
-    </article>
-    <article>
-      <header>
-        <h2>Vim Plugins</h2>
-      </header>
-      <p>In the vibrant world of Vim and Neovim plugins, a plethora of offerings exists to enhance and tailor the
-        editing experience to individual preferences and workflows. Among the most popular plugins is "vim-airline," a
-        sleek status line that provides valuable information such as mode indicators, file encoding, and Git branch
-        details, enhancing navigation and context awareness. "NerdTree" stands out as a beloved file explorer plugin,
-        offering a convenient sidebar interface for navigating project directories and files with ease. For those
-        seeking improved code navigation and productivity, "Telescope" emerges as a powerful fuzzy finder and
-        project-wide search tool, enabling users to quickly locate and jump to files, symbols, and more with intuitive
-        keybindings and customizable extensions. Additionally, the "Language Server Protocol (LSP)" system, supported by
-        plugins like "coc.nvim" and "nvim-lspconfig," integrates language-specific features such as auto-completion,
-        code navigation, and syntax checking, leveraging the capabilities of language servers to enhance code editing
-        workflows. "Ale" serves as a versatile linting engine, providing real-time feedback on code quality and syntax
-        errors, while "Vim-Plug" simplifies plugin management with its lightweight and intuitive package manager. These
-        plugins represent just a fraction of the rich ecosystem available to Vim and Neovim users, showcasing the
-        diversity and innovation fostered by community-driven development within these text editors.</p>
-    </article>
-  </main>
+  <div id="container">
+    <main>
+      <article>
+        <header>
+          <h2>What is Vim?</h2>
+        </header>
+        <p class="funParagraph"> Vim, short for "Vi IMproved," stands as a testament to the enduring legacy of
+          the Vi text editor, which originated in the early days of Unix computing. Vim, developed by Bram Moolenaar in
+          the early 1990s, emerged as a robust and highly customizable text editor renowned for its efficiency and
+          versatility. Rooted in the modal
+          editing concept pioneered by Vi, Vim offers a distinctive mode-based interface, empowering users with a
+          plethora
+          of commands and features for text manipulation, code editing, and more. From its humble beginnings as an
+          enhancement to the Vi editor, Vim has evolved into a cornerstone tool for developers, sysadmins, and
+          enthusiasts
+          alike, shaping the landscape of text editing with its powerful capabilities and enduring appeal.</p>
+      </article>
+      <article>
+        <header>
+          <h2>Vim Features</h2>
+        </header>
+        <p>Revered for its efficiency and flexibility, Vim boasts a myriad of features that cater to the needs of both
+          novice users and seasoned professionals. At the core of its functionality lies an innovative motion system,
+          revolutionizing text navigation and manipulation. These motions empower users to traverse through documents
+          with
+          remarkable fluidity: effortlessly jumping between lines, swiftly navigating words, or executing complex text
+          operations with precision. Beyond unparalleled motion capabilities, Vim offers a wealth of features designed
+          to
+          enhance productivity and streamline workflows. Its robust search and replace functionality, seamless
+          integration
+          with external tools and version control systems, and comprehensive suite of tools for code editing, writing,
+          and
+          system administration tasks set it apart. Additionally, Vim's extensible architecture allows users to
+          customize
+          and augment its functionality through plugins and scripting, ensuring adaptability to diverse use cases and
+          evolving user preferences. In essence, Vim stands as the ultimate choice for those who demand speed,
+          efficiency,
+          and unparalleled control over their text editing experience.</p>
+      </article>
+      <article>
+        <header>
+          <h2>Vim Ecosystem</h2>
+        </header>
+        <p>Within the Vim ecosystem, Neovim emerges as a significant evolution, reshaping the landscape of modern text
+          editing. While both Vim and Neovim share a common heritage, Neovim introduces several innovations and
+          improvements that distinguish it from its predecessor. One notable aspect is Neovim's emphasis on
+          extensibility
+          and modernization. With a focus on a clean, well-documented API, Neovim facilitates easier plugin development
+          and integration with external tools, fostering a vibrant ecosystem of community-driven enhancements. Moreover,
+          Neovim addresses longstanding issues present in Vim, such as its limited terminal integration and asynchronous
+          execution, by offering native support for these features. This enhanced functionality not only improves the
+          overall user experience but also opens up new possibilities for advanced workflows and integrations.
+          Additionally, Neovim's commitment to community collaboration and transparent development processes fosters a
+          culture of innovation and inclusivity, attracting developers and users alike to contribute to its ongoing
+          improvement. In comparison to Vim, Neovim's modern approach and forward-thinking design make it a compelling
+          choice for those seeking a more flexible, customizable, and future-proof text editing solution within the Vim
+          ecosystem.</p>
+      </article>
+      <article>
+        <header>
+          <h2>Vim Plugins</h2>
+        </header>
+        <p>In the vibrant world of Vim and Neovim plugins, a plethora of offerings exists to enhance and tailor the
+          editing experience to individual preferences and workflows. Among the most popular plugins is "vim-airline," a
+          sleek status line that provides valuable information such as mode indicators, file encoding, and Git branch
+          details, enhancing navigation and context awareness. "NerdTree" stands out as a beloved file explorer plugin,
+          offering a convenient sidebar interface for navigating project directories and files with ease. For those
+          seeking improved code navigation and productivity, "Telescope" emerges as a powerful fuzzy finder and
+          project-wide search tool, enabling users to quickly locate and jump to files, symbols, and more with intuitive
+          keybindings and customizable extensions. Additionally, the "Language Server Protocol (LSP)" system, supported
+          by
+          plugins like "coc.nvim" and "nvim-lspconfig," integrates language-specific features such as auto-completion,
+          code navigation, and syntax checking, leveraging the capabilities of language servers to enhance code editing
+          workflows. "Ale" serves as a versatile linting engine, providing real-time feedback on code quality and syntax
+          errors, while "Vim-Plug" simplifies plugin management with its lightweight and intuitive package manager.
+          These
+          plugins represent just a fraction of the rich ecosystem available to Vim and Neovim users, showcasing the
+          diversity and innovation fostered by community-driven development within these text editors.</p>
+      </article>
+    </main>
+  </div>
   <footer>This is a footer &copy;</footer>
 </body>
 
